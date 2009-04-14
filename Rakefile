@@ -2,7 +2,7 @@ require 'rubygems'
 require 'rake'
 require 'echoe'
 
-Echoe.new('classifier', '1.3.4') do |p|
+Echoe.new('classifier', '1.3.5') do |p|
   p.description    = "A general classifier module to allow Bayesian and other types of classifications."
   p.url            = "http://github.com/yury/classifier"
   p.author         = "Yury Korolev"
