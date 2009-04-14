@@ -1,3 +1,4 @@
+classifier.gemspec
 lib/classifier/base.rb
 lib/classifier/bayes.rb
 lib/classifier/extensions/vector.rb
