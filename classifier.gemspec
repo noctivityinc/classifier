@@ -1,13 +1,13 @@
 # -*- encoding: utf-8 -*-
 
 Gem::Specification.new do |s|
-  s.name = %q{classifier}
+  s.name = %q{noctivityinc-classifier191}
   s.version = "1.3.5"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Yury Korolev"]
-  s.date = %q{2009-04-14}
-  s.description = %q{A general classifier module to allow Bayesian and other types of classifications.}
+  s.authors = ["Yury Korolev (patch by Joshua Lippiner)"]
+  s.date = %q{2010-04-15}
+  s.description = %q{A general classifier module to allow Bayesian and other types of classifications that works with ruby 1.9.1.}
   s.email = %q{yury.korolev@gmail.com}
   s.extra_rdoc_files = ["lib/classifier/base.rb", "lib/classifier/bayes.rb", "lib/classifier/extensions/vector.rb", "lib/classifier/extensions/vector_serialize.rb", "lib/classifier/lsi/content_node.rb", "lib/classifier/lsi/summary.rb", "lib/classifier/lsi/word_list.rb", "lib/classifier/lsi.rb", "lib/classifier.rb", "lib/init.rb", "LICENSE", "README"]
   s.files = ["classifier.gemspec", "lib/classifier/base.rb", "lib/classifier/bayes.rb", "lib/classifier/extensions/vector.rb", "lib/classifier/extensions/vector_serialize.rb", "lib/classifier/lsi/content_node.rb", "lib/classifier/lsi/summary.rb", "lib/classifier/lsi/word_list.rb", "lib/classifier/lsi.rb", "lib/classifier.rb", "lib/init.rb", "LICENSE", "Manifest", "Rakefile", "README", "test/base_test.rb", "test/bayes/bayesian_test.rb", "test/lsi/lsi_test.rb", "test/test_helper.rb"]
